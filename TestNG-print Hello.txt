@@ -1,0 +1,41 @@
+Print HELLO by using java compiler 
+
+public class TestNG_Basics {
+
+   public static void main(String[] args) {    //This is compile by "JAVA COMPILERE"  without having main method java will not complie any piece of code 
+		
+System.out.println("Hello");
+	}
+}
+
+O/P = Hello
+
+Print HELLO by using TestNG compiler:
+ 
+import org.testng.annotations.Test;
+
+public class TestNG_Basics {
+
+ @Test
+   public void hello() {
+		// TODO Auto-generated method stub
+System.out.println("Hello");
+	}
+}
+
+O/p = [RemoteTestNG] detected TestNG version 7.3.0
+Hello
+PASSED: hello
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+
