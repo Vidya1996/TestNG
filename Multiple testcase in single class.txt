@@ -1,0 +1,43 @@
+import org.testng.annotations.Test;
+
+public class TestNG_Basics {
+
+ @Test                                    //Testcase1
+   public void hello() {
+		
+System.out.println("Hello");
+	}
+ 
+ @Test                                    //Testcase2
+ public void Firsttest() {
+		
+System.out.println("BYE");
+	}
+ 
+ @Test                                    //Testcase3
+ public void lastcase() {
+System.out.println("GOODBYE");
+	}
+}
+
+
+O/P = [RemoteTestNG] detected TestNG version 7.3.0
+BYE
+Hello
+GOODBYE
+PASSED: Firsttest
+PASSED: hello
+PASSED: lastcase
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+
