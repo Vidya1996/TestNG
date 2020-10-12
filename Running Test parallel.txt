@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+-<suite thread-count="6" parallel="tests" name="Loan Department">
+
+-<listeners>
+      <listener class-name="test.Listeners"/>
+</listeners>
+
+-<test name="Personal loan">
+
+thread count = How many testcase trigger at a time = 6 testcases
+Parallel= test( Inside suits tests are present right so run all the tests)
